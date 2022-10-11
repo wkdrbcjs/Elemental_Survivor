@@ -19,10 +19,7 @@ public class ObjectPoolManager : MonoBehaviour
         StartCoroutine(ObjectPooling());
     }
 
-    void Update()
-    {
-        
-    }
+    //void Update(){ }
 
     IEnumerator ObjectPooling()
     {

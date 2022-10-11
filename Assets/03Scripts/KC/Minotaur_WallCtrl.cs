@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Minotaur_WallCtrl : MonoBehaviour
 {
-    private void Start(){}
+    //private void Start(){}
 
     private void OnTriggerStay2D(Collider2D collision)
     {
