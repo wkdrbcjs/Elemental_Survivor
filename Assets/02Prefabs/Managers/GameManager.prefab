@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6471815568930809578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6471815568930809576}
+  - component: {fileID: 6471815568930809579}
+  - component: {fileID: 6471815568930809577}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6471815568930809576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471815568930809578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6471815569652440043}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6471815568930809579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471815568930809578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1244fcd9b375574f83f1cc9e0ddeb3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectPoolManager: {fileID: 0}
+  MainCamera: {fileID: 0}
+  sound: {fileID: 6471815568930809577}
+  shortDis: 0
+  uiManager: {fileID: 6471815569652440040}
+  Player: {fileID: 0}
+  skillManager: {fileID: 0}
+  cameraTracer: {fileID: 0}
+  SpawnerController: {fileID: 0}
+  SelectingSpawner: {fileID: 0}
+  isGameOver: 0
+  isBossDie: 0
+  resultOn: 0
+  resultOver: 0
+  currentTimeSecond: 0
+  currentTimeMinute: 0
+  TimeText: {fileID: 0}
+  PoolText: {fileID: 0}
+  TimeRush: 1
+  setTimeMinute: 15
+  setTimeSecond: 60
+  SetSpawnPoolTime: 20
+  timeCount: 0
+  killedEnemySum: 0
+  monsterExpSum: 0
+  FoundEnemys: []
+  Enemy: {fileID: 0}
+  enemyCount: 0
+  enemyCount_Max: 300
+  BossObject: {fileID: 1090069749605121672, guid: 39c9ade2b4ee2a54d8badd8d56d35080, type: 3}
+  BossBGM: {fileID: 8300000, guid: 75c389e69d0c7ce4da0bef3077bf3194, type: 3}
+  Boss_UI: {fileID: 0}
+  Boss_HpBar_UISEt: {fileID: 0}
+  Boss_HpBar: {fileID: 0}
+  CutScenePanelUp: {fileID: 0}
+  CutScenePanelDown: {fileID: 0}
+  BossSpeechBox: {fileID: 0}
+  BossWall: {fileID: 5595169748228445646, guid: bc70bd0a566c4af49864ce609bc8de0f, type: 3}
+  SpawnedBoss: {fileID: 0}
+  MiniBossObjectList:
+  - {fileID: 1090069749605121672, guid: 327ca56db079f0840b032611aa721b5f, type: 3}
+  - {fileID: 1090069749605121672, guid: f4a6e920d2862d64a9ffa1f8f153320c, type: 3}
+  - {fileID: 5344430936995174228, guid: e2272896429b73344ae560e5320d1ce2, type: 3}
+  - {fileID: 3949871379582378757, guid: b785a800727902a429214b47669a2c9a, type: 3}
+  SelectedMiniBossObj: {fileID: 0}
+  ClassExpBar: {fileID: 0}
+  remainExp: {fileID: 0}
+  classLevel: {fileID: 0}
+  StageResult: {fileID: 0}
+  ExpResult: {fileID: 0}
+  survivalTime: {fileID: 0}
+  killedEnemy: {fileID: 0}
+  bossExterminator: {fileID: 0}
+  timeExp: {fileID: 0}
+  monsterExp: {fileID: 0}
+  bossExp: {fileID: 0}
+  totalExp: {fileID: 0}
+  survivalTime_Value: {fileID: 0}
+  killedEnemy_Value: {fileID: 0}
+  bossExterminator_Value: {fileID: 0}
+  timeExp_Value: {fileID: 0}
+  monsterExp_Value: {fileID: 0}
+  bossExp_Value: {fileID: 0}
+  totalExp_Value: {fileID: 0}
+  BossSpeech: {fileID: 0}
+  MiniBossSpawnUI: {fileID: 0}
+  MiniBossSpawnText: {fileID: 0}
+  MiniBossNameText: {fileID: 0}
+  MiniAlramUI: {fileID: 0}
+  MiniBossBar: {fileID: 0}
+  MiniBossProtraitUI: {fileID: 0}
+  MiniBossProtrait:
+  - {fileID: 21300000, guid: 8a084b3add36a2149a957f7d8f461534, type: 3}
+  - {fileID: 21300000, guid: fa385e15b5f634941a139ebd2190f52e, type: 3}
+  - {fileID: 21300000, guid: 90417d4575849754aa7fa3a2820021f3, type: 3}
+  - {fileID: 21300000, guid: 9fb1a1ffc4f57a9438b99d5623960370, type: 3}
+  MiniBossNameInUI: {fileID: 0}
+  Background:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bossNum: 0
+  bossCount: 0
+  NaviUI: {fileID: 8519558016999575019, guid: 9dbc5ebfc4ec27c4199b87a202647fe7, type: 3}
+--- !u!82 &6471815568930809577
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471815568930809578}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 279b3b7288033244aa6499211608183a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &6471815569652440042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6471815569652440043}
+  - component: {fileID: 6471815569652440040}
+  m_Layer: 0
+  m_Name: UI_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6471815569652440043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471815569652440042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1604.5431, y: -647.7183, z: 1052.6555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6471815568930809576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6471815569652440040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471815569652440042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335146e360e744e4a9f78f427dfdbb93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverUI: {fileID: 0}
+  GameClearUI: {fileID: 0}
+  StatUI: {fileID: 0}
+  FadePanel: {fileID: 0}
+  Result_UI: {fileID: 0}
+  ClassExp_UI: {fileID: 0}
+  Canvas_UI: {fileID: 0}
+  Warning_UI: {fileID: 0}

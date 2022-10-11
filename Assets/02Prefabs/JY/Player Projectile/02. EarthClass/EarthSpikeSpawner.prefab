@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4883857344839162782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6237439644641397237}
+  - component: {fileID: 4786095738174659983}
+  - component: {fileID: 4020088507723302564}
+  m_Layer: 0
+  m_Name: EarthSpikeSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6237439644641397237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883857344839162782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4786095738174659983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883857344839162782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7713f26621eaec468ba275c89184ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skillManagement: {fileID: 0}
+  _SM: {fileID: 0}
+  ElementClass: 0
+  ProjectileClass: 2
+  BurnOn: 0
+  BurnDamage: 10
+  EarthOn: 0
+  EarthAddDamage: 0
+  WindOn: 0
+  WindAddDamage: 0
+  FreezeOn: 0
+  FreezeDamage: 20
+  ParalyzeOn: 0
+  ParalyzeDamage: 2
+  enemyParalyzer: {fileID: 0}
+  enemyBurner: {fileID: 0}
+  FoundMonsters: []
+  Monster: {fileID: 0}
+  shortDis: 0
+  Sound: {fileID: 4020088507723302564}
+  Snd_FireMagic: {fileID: 8300000, guid: 8c0a8a2d88fe3e1489ca1b7a69bcf594, type: 3}
+  Snd_WindMagic: {fileID: 8300000, guid: 5fa74927d82f09846a76003653c9b723, type: 3}
+  Snd_EarthMagic: {fileID: 8300000, guid: a9e40882e1df81c47bc61d165d87fde3, type: 3}
+  Snd_WaterMagic: {fileID: 8300000, guid: eed4cbc8cd775e6439f3b66809d48696, type: 3}
+  Snd_ThunderMagic: {fileID: 8300000, guid: fbb8ebfe4da6d124b870ad70d2ec5235, type: 3}
+  monster: []
+  monsterSize: 1
+  hit: 0
+  baseAttackDamage: 0
+  baseKnockBack: 0
+  basePenetration: 0
+  baseProjectileScale: 0
+  baseProjectileSpeed: 0
+  baseDuration: 0
+  baseCooltime: 0
+  ProjectileNum: 0
+  Percentage: 0
+  AttackCount: 0
+  attackDamage: 0
+  knockBack: 0
+  penetration: 0
+  projectileSpeed: 0
+  projectileScale: 0
+  criticalChance: 0
+  criticalDamage: 1.5
+  DamageColor: {r: 255, g: 255, b: 100, a: 1}
+  CriticalColor: {r: 1, g: 1, b: 0, a: 1}
+  EarthSpike: {fileID: 5368592337090159618, guid: cd5f3959d09afc242808420b466f0084, type: 3}
+--- !u!82 &4020088507723302564
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883857344839162782}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

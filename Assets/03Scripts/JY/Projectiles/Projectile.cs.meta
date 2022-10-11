@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d9feffe2013e021409ac4f6ebaa7ac21
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _skillManagement: {instanceID: 0}
+  - _SM: {instanceID: 0}
+  - enemyParalyzer: {fileID: 3702266085099397719, guid: ea664625f876e7046bfa0302a06ad82f, type: 3}
+  - enemyBurner: {fileID: 7713989211477229238, guid: 89bac8c86d30c3f47a4eec68a646d9aa, type: 3}
+  - Monster: {instanceID: 0}
+  - Sound: {instanceID: 0}
+  - Snd_FireMagic: {instanceID: 0}
+  - Snd_WindMagic: {instanceID: 0}
+  - Snd_EarthMagic: {instanceID: 0}
+  - Snd_WaterMagic: {instanceID: 0}
+  - Snd_ThunderMagic: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

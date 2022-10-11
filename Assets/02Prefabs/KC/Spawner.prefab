@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5285088618088678380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5285088618088678383}
+  - component: {fileID: 5285088618088678382}
+  - component: {fileID: 5285088618088678381}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5285088618088678383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285088618088678380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5285088618088678382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285088618088678380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07394858325a52a438c39a771ffc73a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraceVelocity: {x: 0, y: 0}
+  Target: {fileID: 0}
+  ReactTime: 0
+--- !u!114 &5285088618088678381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5285088618088678380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c1f1f75ed4bf24fa1bac5988391832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterPools:
+  - {fileID: 2291342214591290137, guid: e5800a2959b6e8e4faabe528b08f141b, type: 3}
+  - {fileID: 2690629465102099882, guid: a992467fc132eb94b83ab12dcbb804ca, type: 3}
+  - {fileID: 3408013858690927573, guid: acd4598aeb9ac3744bdb484b5548db1c, type: 3}
+  - {fileID: 6092999768599477147, guid: 7f3b4e34a144f814482f69443f23c738, type: 3}
+  - {fileID: 6496783772459402093, guid: 01fb90d1848b67b4ea646f38741e3161, type: 3}
+  - {fileID: 6496783772459402093, guid: 01fb90d1848b67b4ea646f38741e3161, type: 3}
+  - {fileID: 6496783772459402093, guid: 01fb90d1848b67b4ea646f38741e3161, type: 3}
+  - {fileID: 6496783772459402093, guid: 01fb90d1848b67b4ea646f38741e3161, type: 3}
+  - {fileID: 6496783772459402093, guid: 01fb90d1848b67b4ea646f38741e3161, type: 3}
+  - {fileID: 9038886348246652164, guid: 176407dc10b28034e9e0b47ced6b62d7, type: 3}
+  - {fileID: 9038886348246652164, guid: 176407dc10b28034e9e0b47ced6b62d7, type: 3}
+  - {fileID: 9038886348246652164, guid: 176407dc10b28034e9e0b47ced6b62d7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MonsterPool_present: {fileID: 0}
+  MonsterPool_State: {fileID: 0}
