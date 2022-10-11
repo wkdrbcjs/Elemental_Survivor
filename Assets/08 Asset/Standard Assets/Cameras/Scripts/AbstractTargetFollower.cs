@@ -6,7 +6,8 @@ namespace UnityStandardAssets.Cameras
 {
     public abstract class AbstractTargetFollower : MonoBehaviour
     {
-        public enum UpdateType // The available methods of updating are:
+        public enum 
+            Type // The available methods of updating are:
         {
             FixedUpdate, // Update in FixedUpdate (for tracking rigidbodies).
             LateUpdate, // Update in LateUpdate. (for tracking objects that are moved in Update)

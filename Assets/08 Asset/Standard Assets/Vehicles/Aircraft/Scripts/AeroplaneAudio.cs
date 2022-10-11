@@ -64,7 +64,8 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
             m_WindSoundSource.loop = true;
             m_WindSoundSource.dopplerLevel = m_AdvancedSetttings.windDopplerLevel;
 
-            // call update here to set the sounds pitch and volumes before they actually play
+            // call
+            // here to set the sounds pitch and volumes before they actually play
             Update();
 
             // Start the sounds playing.
