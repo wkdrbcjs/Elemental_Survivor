@@ -11,6 +11,7 @@
 ### ゲーム借用1:[Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=japanese)
 ### ゲーム借用2:[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/?l=japanese)
 ### [プレイ映像](https://www.youtube.com/watch?v=082Lv_fTSX0)
+### [Demo DownLoad](https://drive.google.com/file/d/16VddgVj0Tfp7HOuP8W58RBDeLd3SqLzT/view?usp=sharing)
 ### 説明
 ```
 - Vampire Survivorsのログライク形式とEnter the Gungeonのコントロール要素を合わせたゲームです。 
@@ -44,6 +45,7 @@
 ### 게임모티브1:[Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=korea)
 ### 게임모티브2:[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/?l=korea)
 ### [플레이영상](https://www.youtube.com/watch?v=082Lv_fTSX0)
+### [데모 다운로드](https://drive.google.com/file/d/16VddgVj0Tfp7HOuP8W58RBDeLd3SqLzT/view?usp=sharing)
 ### 설명
 ```
 - Vampire Survivors의 로그라이크 형식과 Enter the Gungeon의 컨트롤 요소를 합친 게임입니다. 
