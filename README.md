@@ -6,13 +6,13 @@
 - 敵モンスターの生成、削除などの処理およびGC最適化のためのObject Pooling機能
 ```
 
+### タイトル: Elemental Survivor
+### ジャンル: ローグライク 
+### ゲーム借用1:[Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=japanese)
+### ゲーム借用2:[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/?l=japanese)
+### 説明
 ```
-タイトル: Elemental Survivor
-ジャンル: ローグライク 
-ゲーム借用1:[Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=japanese)
-ゲーム借用2:[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/?l=japanese)
-説明
-
+ㅁㅁ
 ```
 
 ```
