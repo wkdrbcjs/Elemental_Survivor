@@ -3,5 +3,5 @@
 
 ### タイトル: Elemental Survivor
 ### ジャンル: ローグライク 
-### ゲーム借用:ヴァンパイア·サバイバーズ(https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=japanese)
+### ゲーム借用:[ヴァンパイア·サバイバーズ](https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=japanese)
 
